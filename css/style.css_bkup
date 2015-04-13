@@ -1,0 +1,114 @@
+body{
+	background-image: url('../images/bg4_1440x900.jpg');
+}
+.header {
+	width: 100%;
+	height: 110px;
+}
+
+.header .firstrow {
+	height: 60px;
+}
+.header .firstrow .logo {
+	padding-left: 30px;
+	width: 190px;
+	height: 100%;
+	float: left;
+}
+.header .firstrow .logo .setlogo{
+	width: 110px;
+  	height: 50px;;
+	background-image: url('../images/v1_376447c3.png');
+	background-position: 0 -138px;
+  	-webkit-background-size: 112px 2011px;
+  	background-size: 112px 2011px;	
+}
+.header .firstrow .searchbox{
+	width: 65%;
+	float: left;
+}
+.header .firstrow .searchbox .searchbutton{
+	width: 35px;
+  	height: 26px;
+	display: inline-block;
+	background-color: blue;	
+	background-image: url('../images/v1_376447c3.png');
+	background-size: 112px 2011px;
+	background-position: -66px -1625px;
+	margin-top: 15px;
+}
+
+.header .firstrow .searchbox .searchinput input{
+	width: 100%;
+}
+
+.header .firstrow .searchbox .searchinput{
+	width: 60%;
+	margin-top: 15px;
+	float: left;
+}
+
+.header .firstrow .profile{
+	width: 20%;
+	float: left;
+}
+
+.header .secondrow {
+	height: 60px;
+	padding-top: 10px;
+}
+
+.header .secondrow .gmaildropdown{
+	padding-left: 40px;
+	width: 190px;
+	float: left;
+}
+
+.header .secondrow .moreoptions .checkboxdropdown{
+	float: left;
+	margin-right: 20px;
+}
+
+.header .secondrow .moreoptions .checkboxdropdown button{
+	height: 35px;
+}
+
+.header .secondrow .moreoptions .refresh{
+	width: 52px;
+  	height: 35px;
+	float: left;
+	margin-right: 20px;
+  	background: no-repeat url(../images/v1_376447c3.png) 20px -1000px;
+  	background-color: white;
+}
+
+.header .secondrow .moreoptions .moredropdown button{
+	height: 35px;
+}
+
+.body {
+	width: 100%;
+	height: 70%;
+}
+
+
+.body .sidebar {
+	width: 15%;
+	float: left;
+}
+
+.body .sidebar .labels {
+	height: 40%;
+}
+.body .sidebar .chat {
+	height: 60%;
+}
+
+.body .content {
+	width: 80%;
+	float: left;
+}
+.footer{
+	width: 100%;
+	height: 5%;
+}
